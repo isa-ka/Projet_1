@@ -1,0 +1,43 @@
+
+h3
+{
+font-family: 'roboto_monoregular';
+color: #3827B4;
+}
+
+.presentation /* Présentation de la page kit du nettoyeur */
+{
+padding: 200px 0 50px 0;
+}
+
+#your_kit .row {
+    margin: 0 0 50px 0;
+}
+#your_kit .txt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.kit_title_text, .kit_title_text1 /* Texte  */
+{
+text-align: justify;
+padding-right: 5%;
+line-height: 1.5em;
+}
+
+.img_resolution /* Bordure ombre sur les images */
+{
+-webkit-box-shadow: 21px 11px 30px -24px rgba(9,9,38,0.87);
+-moz-box-shadow: 21px 11px 30px -24px rgba(9,9,38,0.87);
+box-shadow: 21px 11px 30px -24px rgba(9,9,38,0.87);
+}
+
+.first_element, .second_element, .third_element /* Marge sur le haut de chaque élément */
+{
+margin-bottom: 4%;
+}
+
+label /* Mise à la taille */
+{
+font-size: 16px !important;
+}

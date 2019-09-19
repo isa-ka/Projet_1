@@ -1,0 +1,102 @@
+
+#contact {
+    padding-top:200px; 
+}
+.container1 /* Bloc adresse et mail */
+{
+display: flex;
+flex-direction: row;
+margin-top: 4%;
+color: black;
+font-weight: bold;
+}
+
+.form-group input /* Informations à remplir par l'utilisateur */
+{
+background-color: #3827B4;
+opacity: 0.9;
+color: #ffffff !important;
+border: none;
+border-radius: 0 !important;
+}
+
+.form-group label /* Titre de l'information à remplir par l'utilisateur */
+{
+font-size: 16px;
+color: #5F5F5F;
+}
+.form-group ::placeholder { 
+    color:white;
+    opacity: 1; /* Firefox */
+}
+
+.form-check .form-check-input {
+    margin-top: 0;
+}
+
+form .form-check{
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+display: flex;
+margin-top: 20px;
+}
+textarea /* Message à remplir par l'utilisateur */
+{
+background-color: #3827B4;
+opacity: 0.9;
+width: 100%;
+border: none;
+font-size: 1rem;
+padding: .375rem .75rem;
+color:white;
+width: 100%;    
+}
+
+#emailHelp .btn  /* Bouton "envoyer" */
+{
+float: right;
+background-color: #00dbc7 !important;
+color: #ffffff !important;
+border-color: #00dbc7 !important;
+border-radius: 0 !important;
+}
+
+li.contact_address /* Interligne entre les éléments d'adresse et email */
+{
+font-size: 1.2em;	
+font-family: 'roboto_monoregular';
+color: #5F5F5F;
+list-style-type: none;
+}
+
+li.contact_address a{
+    color:#3DD8C4;
+}
+li.contact_address a:hover {
+    text-decoration: none;
+}
+.address /* Casser le float */
+{
+clear: both;
+padding-top: 50px;
+}
+.address ul {
+    padding-left: 0;
+}
+
+#carte_google 
+{
+overflow:hidden;
+position:relative;
+height:400px;
+}
+	
+#carte_google iframe /* Map Google responsive */
+{
+left:0;
+top:0;
+height:100%;
+width:100%;
+position:absolute;
+}
