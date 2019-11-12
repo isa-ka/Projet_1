@@ -12,7 +12,6 @@
 .bg-color {
     background: #06032F;;
 }
-
 li .nav-link  {
     font-family: 'roboto_monoregular';
     font-size: 1em;
@@ -42,7 +41,6 @@ div.btn_engaged a{
     overflow: visible;
     font-family: 'roboto_monoregular';
     letter-spacing: 0.05em;
-    
 }
 div.btn_engaged a:hover{
     color: white;
